@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brandon Mobile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container navbar">
+            <a class="logo" href="#home">Brandon</a>
+            <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+            <nav aria-label="Primary">
+                <ul id="primary-nav" class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <h1>Hi, I’m Brandon</h1>
+            <p>Aspiring Software Engineer and Computer Science Student building modern, responsive web experiences.</p>
+            <a href="#features" class="btn">View Features</a>
+        </section>
+
+        <section class="features" id="features">
+            <h2 class="section-title">Features</h2>
+            <div class="features-grid">
+                <article class="feature-card">
+                    <h3>Responsive Design</h3>
+                    <p>Mobile-first layout that scales cleanly across phone, tablet, and desktop sizes.</p>
+                </article>
+                <article class="feature-card">
+                    <h3>Modern UI Components</h3>
+                    <p>Professional cards, spacing, and visual hierarchy for a clear user experience.</p>
+                </article>
+                <article class="feature-card">
+                    <h3>Accessible Navigation</h3>
+                    <p>Collapsible menu on mobile with keyboard-friendly behavior and readable tap targets.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <img
+                    class="about-image"
+                    src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80"
+                    alt="Laptop workspace representing software development">
+                <p>
+                    I am a Computer Science student passionate about technology, coding, and building practical web solutions.
+                    I enjoy front-end development, responsive interfaces, and writing clean, maintainable code.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-top">
+                <div>
+                    <h2 class="section-title">Site Links</h2>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="section-title">Connect</h2>
+                    <ul class="social-links">
+                        <li><a href="https://github.com/" target="_blank" rel="noopener">GitHub</a></li>
+                        <li><a href="https://linkedin.com/" target="_blank" rel="noopener">LinkedIn</a></li>
+                        <li><a href="mailto:youremail@email.com">Email</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p class="copyright">&copy; 2026 Brandon Portfolio</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
